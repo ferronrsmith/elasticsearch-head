@@ -32,6 +32,7 @@
 				url: this.base_uri + params.path,
 				contentType: "application/json",
 				dataType: "json",
+                contentType : "application/json",
 				error: function(xhr, type, message) {
 					if("console" in window) {
 						console.log({ "XHR Error": type, "message": message });
